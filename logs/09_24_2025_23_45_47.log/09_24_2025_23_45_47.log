@@ -1,0 +1,5 @@
+[ 2025-09-24 23:45:49,430 ] 26 root - INFO - Working is started
+[ 2025-09-24 23:45:49,476 ] 29 root - INFO - DataSet Reading Successfully
+[ 2025-09-24 23:45:49,633 ] 35 root - INFO - Training and Testing Data is Done
+[ 2025-09-24 23:45:49,786 ] 40 root - INFO - Train Csv is done
+[ 2025-09-24 23:45:49,787 ] 7 root - INFO - Train Set artifacts\train.csv test_set artifacts\test.csv

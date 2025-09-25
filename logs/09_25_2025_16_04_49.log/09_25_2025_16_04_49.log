@@ -1,0 +1,37 @@
+[ 2025-09-25 16:04:51,253 ] 21 root - INFO - Working is started
+[ 2025-09-25 16:04:51,293 ] 24 root - INFO - DataSet Reading Successfully
+[ 2025-09-25 16:04:51,421 ] 30 root - INFO - Training and Testing Data is Done
+[ 2025-09-25 16:04:51,545 ] 35 root - INFO - Train Csv is done
+[ 2025-09-25 16:04:51,545 ] 10 root - INFO - Train Set artifacts\train.csv test_set artifacts\test.csv
+[ 2025-09-25 16:04:51,596 ] 56 root - INFO - Read train and test data completed
+[ 2025-09-25 16:04:51,601 ] 57 root - INFO - Train DataFrame Head : 
+      ID      date   price  bedrooms  bathrooms  sqft_living  sqft_lot  floors  waterfront  view  condition  grade  sqft_above  sqft_basement  yr_built  yr_renovated  zipcode
+0   6325  20140527  325000       3.0       1.75         1780     13095     1.0           0     0          4      9        1780              0      1983             0    98042
+1  13473  20150310  257000       2.0       1.00         1000      3700     1.0           0     0          3      6         800            200      1929             0    98118
+2  17614  20150226  228500       3.0       1.00         1080      7486     1.5           0     0          3      6         990             90      1942             0    98146
+3  16970  20150108  288000       3.0       2.25         2090      7500     1.0           0     0          4      7        1280            810      1977             0    98031
+4  20868  20150417  479000       2.0       2.50         1741      1439     2.0           0     0          3      8        1446            295      2007             0    98034
+[ 2025-09-25 16:04:51,617 ] 58 root - INFO - Test DataFrame Head : 
+      ID      date    price  bedrooms  bathrooms  sqft_living  sqft_lot  floors  waterfront  view  condition  grade  sqft_above  sqft_basement  yr_built  yr_renovated  zipcode
+0    735  20141006   365000       4.0       2.25         2070      8893     2.0           0     0          4      8        2070              0      1986             0    98058
+1   2830  20140821   865000       5.0       3.00         2900      6730     1.0           0     0          5      8        1830           1070      1977             0    98115
+2   4106  20140815  1038000       4.0       2.50         3770     10893     2.0           0     2          3     11        3770              0      1997             0    98006
+3  16218  20150331  1490000       3.0       3.50         4560     14608     2.0           0     2          3     12        4560              0      1990             0    98034
+4  19964  20140714   711000       3.0       2.50         2550      5376     2.0           0     0          3      9        2550              0      2004             0    98052
+[ 2025-09-25 16:04:51,617 ] 27 root - INFO - Working started Data Transformation
+[ 2025-09-25 16:04:51,617 ] 35 root - INFO - Pipeline is initiated
+[ 2025-09-25 16:04:51,617 ] 44 root - INFO - preprocessor is created
+[ 2025-09-25 16:04:51,656 ] 75 root - INFO - Tranformation Problem here
+[ 2025-09-25 16:04:51,656 ] 76 root - INFO - Applied preprocessing object on training and testing data
+[ 2025-09-25 16:04:51,657 ] 82 root - INFO - combined features
+[ 2025-09-25 16:04:51,658 ] 88 root - INFO - Preprocessor pickle is created at: artifacts\preprocessor.pkl
+[ 2025-09-25 16:04:51,659 ] 16 root - INFO - Transformation is Done
+[ 2025-09-25 16:04:51,659 ] 27 root - INFO - Splitting Dependant and In-Dependant Variable from train and test
+[ 2025-09-25 16:04:51,659 ] 36 root - INFO - done12
+[ 2025-09-25 16:04:51,685 ] 37 root - INFO - Model: Linear Regression , accuracy score : 0.6530327945015533
+[ 2025-09-25 16:04:58,840 ] 37 root - INFO - Model: Lasso , accuracy score : 0.6530331044851312
+[ 2025-09-25 16:04:59,807 ] 37 root - INFO - Model: Neighbors , accuracy score : 0.6820242042097997
+[ 2025-09-25 16:05:15,467 ] 37 root - INFO - Model: Support Vector , accuracy score : -0.0631935342970198
+[ 2025-09-25 16:05:26,561 ] 37 root - INFO - Model: Random Forest , accuracy score : 0.7804188635164147
+[ 2025-09-25 16:05:26,561 ] 48 root - INFO - Model Report : {'Linear Regression ': 0.6530327945015533, 'Lasso ': 0.6530331044851312, 'Neighbors ': 0.6820242042097997, 'Support Vector ': -0.0631935342970198, 'Random Forest ': 0.7804188635164147}
+[ 2025-09-25 16:05:26,562 ] 60 root - INFO - Best Model Found, Model Name is : Random Forest  , R2 Score is : 0.7804188635164147

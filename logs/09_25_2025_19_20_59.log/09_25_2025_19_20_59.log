@@ -1,0 +1,17 @@
+[ 2025-09-25 19:21:00,583 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-09-25 19:21:00,601 ] 97 werkzeug - INFO -  * Debugger PIN: 409-804-514
+[ 2025-09-25 19:21:12,295 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 19:21:12] "GET / HTTP/1.1" 200 -
+[ 2025-09-25 19:21:12,417 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 19:21:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-09-25 19:21:25,626 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 19:21:25] "GET /predict HTTP/1.1" 200 -
+[ 2025-09-25 19:22:53,169 ] 86 root - INFO - DataFrame Created          date  bedrooms  bathrooms  sqft_living  sqft_lot  ...  sqft_above  sqft_basement  yr_built  yr_renovated   zipcode
+0  20100518.0       3.0        2.0       2000.0    2500.0  ...         2.0            5.0    2010.0        2013.0  424309.0
+
+[1 rows x 15 columns]
+[ 2025-09-25 19:22:53,541 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 19:22:53] "POST /predict HTTP/1.1" 200 -
+[ 2025-09-25 19:32:19,709 ] 86 root - INFO - DataFrame Created          date  bedrooms  bathrooms  sqft_living  sqft_lot  ...  sqft_above  sqft_basement  yr_built  yr_renovated   zipcode
+0  20150122.0       4.0        3.0       2500.0    3000.0  ...         1.0            2.0    2015.0        2020.0  424309.0
+
+[1 rows x 15 columns]
+[ 2025-09-25 19:32:19,935 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 19:32:19] "POST /predict HTTP/1.1" 200 -
+[ 2025-09-25 19:34:59,528 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 19:34:59] "GET / HTTP/1.1" 200 -
+[ 2025-09-25 19:35:19,987 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 19:35:19] "GET /predict HTTP/1.1" 200 -

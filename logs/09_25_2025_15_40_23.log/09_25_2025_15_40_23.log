@@ -1,0 +1,28 @@
+[ 2025-09-25 15:40:24,438 ] 21 root - INFO - Working is started
+[ 2025-09-25 15:40:24,482 ] 24 root - INFO - DataSet Reading Successfully
+[ 2025-09-25 15:40:24,610 ] 30 root - INFO - Training and Testing Data is Done
+[ 2025-09-25 15:40:24,728 ] 35 root - INFO - Train Csv is done
+[ 2025-09-25 15:40:24,728 ] 9 root - INFO - Train Set artifacts\train.csv test_set artifacts\test.csv
+[ 2025-09-25 15:40:24,776 ] 56 root - INFO - Read train and test data completed
+[ 2025-09-25 15:40:24,782 ] 57 root - INFO - Train DataFrame Head : 
+      ID      date   price  bedrooms  bathrooms  sqft_living  sqft_lot  floors  waterfront  view  condition  grade  sqft_above  sqft_basement  yr_built  yr_renovated  zipcode
+0   6325  20140527  325000       3.0       1.75         1780     13095     1.0           0     0          4      9        1780              0      1983             0    98042
+1  13473  20150310  257000       2.0       1.00         1000      3700     1.0           0     0          3      6         800            200      1929             0    98118
+2  17614  20150226  228500       3.0       1.00         1080      7486     1.5           0     0          3      6         990             90      1942             0    98146
+3  16970  20150108  288000       3.0       2.25         2090      7500     1.0           0     0          4      7        1280            810      1977             0    98031
+4  20868  20150417  479000       2.0       2.50         1741      1439     2.0           0     0          3      8        1446            295      2007             0    98034
+[ 2025-09-25 15:40:24,797 ] 58 root - INFO - Test DataFrame Head : 
+      ID      date    price  bedrooms  bathrooms  sqft_living  sqft_lot  floors  waterfront  view  condition  grade  sqft_above  sqft_basement  yr_built  yr_renovated  zipcode
+0    735  20141006   365000       4.0       2.25         2070      8893     2.0           0     0          4      8        2070              0      1986             0    98058
+1   2830  20140821   865000       5.0       3.00         2900      6730     1.0           0     0          5      8        1830           1070      1977             0    98115
+2   4106  20140815  1038000       4.0       2.50         3770     10893     2.0           0     2          3     11        3770              0      1997             0    98006
+3  16218  20150331  1490000       3.0       3.50         4560     14608     2.0           0     2          3     12        4560              0      1990             0    98034
+4  19964  20140714   711000       3.0       2.50         2550      5376     2.0           0     0          3      9        2550              0      2004             0    98052
+[ 2025-09-25 15:40:24,797 ] 27 root - INFO - Working started Data Transformation
+[ 2025-09-25 15:40:24,798 ] 35 root - INFO - Pipeline is initiated
+[ 2025-09-25 15:40:24,798 ] 44 root - INFO - preprocessor is created
+[ 2025-09-25 15:40:24,838 ] 75 root - INFO - Tranformation Problem here
+[ 2025-09-25 15:40:24,838 ] 76 root - INFO - Applied preprocessing object on training and testing data
+[ 2025-09-25 15:40:24,839 ] 82 root - INFO - combined features
+[ 2025-09-25 15:40:24,840 ] 88 root - INFO - Preprocessor pickle is created at: artifacts\preprocessor.pkl
+[ 2025-09-25 15:40:24,842 ] 15 root - INFO - Transformation is Done

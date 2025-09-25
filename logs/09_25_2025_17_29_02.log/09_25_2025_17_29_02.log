@@ -1,0 +1,4 @@
+[ 2025-09-25 17:29:03,575 ] 86 root - INFO - DataFrame Created          date  bedrooms  bathrooms  sqft_living  sqft_lot  ...  sqft_above  sqft_basement  yr_built  yr_renovated  zipcode
+0  20141013.0         3          2         1800      5000  ...        1600            200      1995             0    98178
+
+[1 rows x 15 columns]

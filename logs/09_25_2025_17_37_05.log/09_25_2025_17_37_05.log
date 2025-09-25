@@ -1,0 +1,10 @@
+[ 2025-09-25 17:37:06,161 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-09-25 17:37:06,179 ] 97 werkzeug - INFO -  * Debugger PIN: 409-804-514
+[ 2025-09-25 17:37:11,875 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 17:37:11] "GET / HTTP/1.1" 200 -
+[ 2025-09-25 17:37:12,668 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 17:37:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-09-25 17:37:16,495 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 17:37:16] "GET /predict HTTP/1.1" 200 -
+[ 2025-09-25 17:38:20,974 ] 86 root - INFO - DataFrame Created          date  bedrooms  bathrooms  sqft_living  sqft_lot  ...  sqft_above  sqft_basement  yr_built  yr_renovated   zipcode
+0  20100419.0       3.0        2.0       1600.0    2000.0  ...         2.0            4.0    2010.0        2015.0  424309.0
+
+[1 rows x 15 columns]
+[ 2025-09-25 17:38:21,441 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Sep/2025 17:38:21] "POST /predict HTTP/1.1" 200 -

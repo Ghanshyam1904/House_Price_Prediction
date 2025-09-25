@@ -1,0 +1,4 @@
+[ 2025-09-24 23:43:37,534 ] 27 root - INFO - Working is started
+[ 2025-09-24 23:43:37,574 ] 30 root - INFO - DataSet Reading Successfully
+[ 2025-09-24 23:43:37,716 ] 36 root - INFO - Training and Testing Data is Done
+[ 2025-09-24 23:43:37,716 ] 47 root - INFO - Error in Data Ingestion Invalid file path or buffer object type: <class 'tuple'>
